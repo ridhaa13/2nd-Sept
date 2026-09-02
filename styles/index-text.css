@@ -1,0 +1,48 @@
+body{
+  background-color: rgb(255, 229, 236);
+}
+
+.main-page-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 400px;
+}
+
+.main-page-text-div{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-family: "Special Elite", cursive;
+}
+
+.three-yr-text{
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 60px;
+}
+
+.happy-text:hover,.anniversary-text:hover{
+  text-shadow: 2px 10px 5px RGB(205, 180, 219);
+  cursor: crosshair;
+}
+.three-yr-text:hover{
+   text-shadow: 2px 10px 5px RGB(75, 0, 110);
+   cursor: crosshair;
+}
+
+.happy-text{
+  margin-left: 50px;
+  transition: text-shadow, 0.3s;
+}
+
+.anniversary-text, .three-yr-text{
+  transition: text-shadow, 0.3s; 
+}
+
+.notice-smth-text{
+  margin-top: 50px;
+  margin-left: 200px;
+  font-size: 20px;
+}
